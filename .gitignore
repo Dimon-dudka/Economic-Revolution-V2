@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+*.dll
+*.ttf
+*.vcxproj
+*.user
+*.filters
