@@ -32,9 +32,14 @@
 *.app
 
 *.dll
-*.ttf
+#*.ttf
 *.vcxproj
 *.user
 *.filters
 
 *.flac
+
+/x64
+
+/.vs
+Economic Revolution V2/x64
