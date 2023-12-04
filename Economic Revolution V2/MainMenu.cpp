@@ -98,7 +98,7 @@ void MainMenu::initMusic()
 	//Must be background soundtrack
 	//and music to mouse click on button
 
-	if (!this->bufferMenu.loadFromFile("BUTTON.wav")) {
+	if (!this->bufferMenu.loadFromFile("sound/BUTTON.wav")) {
 		cout << "ERROR MAIN MENU - INIT BUTTON SOUND\n";
 	}
 	else {
@@ -125,7 +125,7 @@ void MainMenu::initTexture()
 {
 	//Background texture
 
-	if (!this->menu_back_texture.loadFromFile("TEST_MENU.jpg")) {
+	if (!this->menu_back_texture.loadFromFile("textures/TEST_MENU.jpg")) {
 		cout << "ERROR::MAINMENU::INITTEXTURE::Failed to load texture!\n";
 	}
 	else cout << "INIT MAIN MENU - BACKGROUNG TEXTURE - OK\n";

@@ -582,10 +582,10 @@ void Game::initGameTextures()
 {
 	//initialisation of all textures in the game
 	//Was checked on 24.01.2023
-	if (!this->texture_grass.loadFromFile("grass.png") && !this->texture_river1.loadFromFile("river_1")&&
-		!this->texture_river2.loadFromFile("river_2")&& !this->texture_river3.loadFromFile("river_3")
-		&&!this->texture_river4.loadFromFile("river_4")&& !this->texture_river5.loadFromFile("river_5")&&
-		!this->texture_river6.loadFromFile("river_6")) {
+	if (!this->texture_grass.loadFromFile("textures/grass.png") && !this->texture_river1.loadFromFile("textures/river_1")&&
+		!this->texture_river2.loadFromFile("textures/river_2")&& !this->texture_river3.loadFromFile("textures/river_3")
+		&&!this->texture_river4.loadFromFile("textures/river_4")&& !this->texture_river5.loadFromFile("textures/river_5")&&
+		!this->texture_river6.loadFromFile("textures/river_6")) {
 		cout << "ERROR::GAME::INITTEXTURE::Failed to load texture!\n";
 	}
 	else {
@@ -612,7 +612,7 @@ void Game::initGameSprites()
 void Game::initGameClikSound()
 {
 	//init of all !GAME! Sounds and music
-	if (!this->bufferGame.loadFromFile("BUTTON.wav")) {
+	if (!this->bufferGame.loadFromFile("sound/BUTTON.wav")) {
 		cout << "ERROR MAIN MENU - INIT BUTTON SOUND\n";
 	}
 	else {
